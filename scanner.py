@@ -1,4 +1,4 @@
-#!/bin/pyton3
+#!/bin/python3
 
 import sys 
 import socket as sck
@@ -33,4 +33,4 @@ except sck.gaierror:
 except sck.error:
         print("Couldn't connect to server.")
         sys.exit()
-h
+
